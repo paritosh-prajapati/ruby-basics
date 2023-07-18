@@ -17,6 +17,7 @@ class Rectangle
   end
 end
 
+
 rect = Rectangle.new(2, 3)
 p "Area = #{rect.area}"
 p "Perimeter = #{rect.perimeter}"
