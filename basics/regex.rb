@@ -72,5 +72,86 @@
   
 
 
+# *********** ************** MORE STUFF *********** ********* *************
+
+# def take_block(&block)
+#     block.call
+#   end
+  
+#   take_block do
+#     puts "Block being called in the method!"
+# end
+
+
+
+
+# def take_block(number, &block)
+#     block.call(number)
+#   end
+  
+#   number = 42
+#   take_block(number) do |num|
+#     puts "Block being called in the method! #{num}"
+#   end
+
+
+# **************** EXCEPTION HANDLING **** ***** **** *********** 
+
+names = ['bob', 'joe', 'steve', nil, 'frank']
+
+# names.each do |name|              # without begin and rescue
+#   puts "#{name}'s name has #{name.length} letters in it."
+# end
+
+# names.each do |name|        # with begin and rescue
+#   begin
+#     puts "#{name}'s name has #{name.length} letters in it."
+#   rescue
+#     puts "Something went wrong!"
+#   end
+# end
+
+
+# def divide(number, divisor)
+#     begin
+#       answer = number / divisor
+#     rescue ZeroDivisionError => e
+#       puts e.message
+#     end
+#   end
+  
+# puts divide(16, 4)
+# puts divide(4, 0)
+# puts divide(14, 7)
+
+
+
+
+
+# def space_out_letters(person)
+#     return person.split("").join("")
+# end
+
+# def greet(person)
+#     return "H e l l o, " + space_out_letters(person)
+# end
+
+# def decorate_greeting(person)
+#     puts "" + greet(person) + ""
+# end
+# decorate_greeting("John")
+# decorate_greeting(1)
+
+
+
+def top
+    bottom
+end
+
+def bottom
+    puts "Reached the bottom"
+end
+top
+  
 
 
