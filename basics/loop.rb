@@ -1,8 +1,6 @@
 # *Loop - Array Manipulation:** Create a class called "ArrayManipulator" with a method that takes an array of numbers as input and returns a new array that contains only the even numbers from the original array. Demonstrate the usage of this method with an example.
 
 
-
-
 class ArrayManipulator
   
   def display_even(arr)
